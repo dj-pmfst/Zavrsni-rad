@@ -128,11 +128,3 @@ plt.xlabel(r"$\eta$")
 plt.ylabel('N')
 plt.grid()
 plt.show()
-
-# Optional: look at event-by-event multiplicity around η≈0 (experiments often quote this)
-# print("⟨N_ch(|η|<0.5)⟩ per event =", np.mean(mult_eta0))
-# plt.figure()
-# plt.hist(mult_eta0, bins=40)
-# plt.xlabel(r'$N_{\rm ch}$ in $| \eta | < 0.5$ per event'); plt.ylabel('Events')
-# plt.grid(True); plt.show()
-
