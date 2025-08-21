@@ -1,4 +1,4 @@
-import sudar2 as s 
+import sudar as s 
 import matplotlib.pyplot as plt 
 import math
 import numpy as np 
@@ -135,3 +135,4 @@ plt.show()
 # plt.hist(mult_eta0, bins=40)
 # plt.xlabel(r'$N_{\rm ch}$ in $| \eta | < 0.5$ per event'); plt.ylabel('Events')
 # plt.grid(True); plt.show()
+
